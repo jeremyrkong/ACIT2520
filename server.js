@@ -25,8 +25,7 @@ hbs.registerHelper('linkTo', (url) => {
 
 // app.use((request, response, next) => {
 // 	var time = new Date().toString();
-// 	// console.log(`${time}: ${request.method} ${request.url}`);
-
+// 	console.log(`${time}: ${request.method} ${request.url}`);
 // 	var log = `${time}: ${request.method} ${request.url}`;
 // 	fs.appendFile('server.log', log + '\n', (error) => {
 // 		if (error) {
